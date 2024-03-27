@@ -21,14 +21,14 @@ public class ButcheryUpgrade : Upgrader
 
     public override void Upgrade()
     {
-        Inventory.ReduceMeat(GameSettings.ButcheryUpgradePrices[CurrentLevel]);
+        Inventory.ReduceMoney(GameSettings.ButcheryUpgradePrices[CurrentLevel]);
         _spawner.SpawnButchery(_positions[CurrentLevel].BuildingPoint, _positions[CurrentLevel].PathPoint);
         CurrentLevel++;
     }
 
     protected override bool CanBuy()
     {
-        if (GameSettings.ButcheryUpgradePrices[CurrentLevel] > Inventory.Meat)
+        if (GameSettings.ButcheryUpgradePrices[CurrentLevel] > Inventory.Money)
             return false;
 
         return true;

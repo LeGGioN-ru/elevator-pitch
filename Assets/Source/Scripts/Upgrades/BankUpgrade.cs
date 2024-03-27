@@ -20,14 +20,14 @@ public class BankUpgrade : Upgrader
 
     public override void Upgrade()
     {
-        Inventory.ReduceMoney(GameSettings.BankUpgradePrices[CurrentLevel]);
+        Inventory.ReduceMeat(GameSettings.BankUpgradePrices[CurrentLevel]);
         _spawner.SpawnBank(_positions[CurrentLevel].BuildingPoint, _positions[CurrentLevel].PathPoint);
         CurrentLevel++;
     }
 
     protected override bool CanBuy()
     {
-        if (GameSettings.BankUpgradePrices[CurrentLevel] > Inventory.Money)
+        if (GameSettings.BankUpgradePrices[CurrentLevel] > Inventory.Meat)
             return false;
 
         return true;

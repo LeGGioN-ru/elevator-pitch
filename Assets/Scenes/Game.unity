@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -0.001560113, y: -0.35412598}
+  m_AnchoredPosition: {x: -0.001560113, y: -0.35424805}
   m_SizeDelta: {x: 1221, y: 584.4116}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &37405199
@@ -226,7 +226,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1037.8, y: -49.88}
+  m_AnchoredPosition: {x: -1037.8, y: -49.879883}
   m_SizeDelta: {x: 150, y: 145}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &54091943
@@ -2609,6 +2609,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5032600384353149818, guid: 1e150bc40fa21c040b299413939cf29d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6cd0629b4cdff344687d904876694d8a, type: 3}
     - target: {fileID: 7654564022685244730, guid: 1e150bc40fa21c040b299413939cf29d, type: 3}
       propertyPath: m_Name
       value: Button
@@ -3226,6 +3230,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5032600384353149818, guid: 1e150bc40fa21c040b299413939cf29d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ac8b561d487b59144bf8ab910ebdbd97, type: 3}
     - target: {fileID: 7001772973217843708, guid: 1e150bc40fa21c040b299413939cf29d, type: 3}
       propertyPath: m_text
       value: ADD BANK

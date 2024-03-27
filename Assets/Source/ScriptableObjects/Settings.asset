@@ -17,6 +17,6 @@ MonoBehaviour:
   <DurationAddSpeed>k__BackingField: 0.5
   <AddMeat>k__BackingField: 5
   <AddMoney>k__BackingField: 7
-  _bankUpgradePrices: 960000002c010000
-  _tigersUpgradePrices: d0070000b80b0000
-  _butcheryUpgradePrices: 960000002c010000
+  _bankUpgradePrices: 1400000050000000
+  _tigersUpgradePrices: 1400000032000000
+  _butcheryUpgradePrices: 1400000050000000
